@@ -1,11 +1,10 @@
 package com.example;
 
-import com.example.controller.Controller;
-import com.example.model.Parent;
-import com.example.model.Student;
-import com.example.model.Subject;
-import com.example.model.Teacher;
-import com.example.view.View;
+import com.example.controller.TestController;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.stream.IntStream;
 
 /**
  * Класс {@code Main} является точкой входа в приложение.
@@ -14,32 +13,20 @@ import com.example.view.View;
  */
 public class Main {
     public static void main(String[] args) {
-        // Создание родителей
-        Parent parent1 = new Parent("Родитель Джона");
-        Parent parent2 = new Parent("Родитель Алекса");
+        var formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm:ss");
+        var testController = new TestController();
 
-        // Создание студентов
-        Student student1 = new Student("Джон", 20, "Мужской", parent1);
-        Student student2 = new Student("Алекс", 19, "Женский", parent2);
+        System.out.printf("Start program: %s\n", LocalDateTime.now().format(formatter));
 
-        // Создание предметов и преподавателей
-        Subject math = new Subject("Математика");
-        Subject science = new Subject("Наука");
-        Teacher teacher1 = new Teacher("Мистер Смит", math);
-        Teacher teacher2 = new Teacher("Миссис Джонсон", science);
+        IntStream.range(1, 6).forEach(i -> {
+            var numOfElements = (int) Math.pow(10, i);
+            System.out.printf("\n---------- TEST WITH %d ELEMENTS----------\n", numOfElements);
+            testController.testArrayList(numOfElements);
+            testController.testLinkedList(numOfElements);
+            testController.testCustomArrayList(numOfElements);
+        });
 
-        // Создание контроллера и вида
-        Controller controller = new Controller();
-        View view = new View();
-
-        // Пример: Выставление оценок
-        int[] gradesForJohn = view.getGradesInput();
-        controller.assignGrades(teacher1, student1, gradesForJohn);
-        view.displayStudentInfo(student1);
-
-        int[] gradesForAlex = view.getGradesInput();
-        controller.assignGrades(teacher2, student2, gradesForAlex);
-        view.displayStudentInfo(student2);
+        System.out.printf("\nFinish program: %s\n", LocalDateTime.now().format(formatter));
     }
 }
 
