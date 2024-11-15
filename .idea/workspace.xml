@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3e9a65e-7f60-4c3d-a800-83f48ccf6ffb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab4/src/com/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/src/com/example/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/src/com/example/model/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/src/com/example/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/src/com/example/model/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/src/com/example/model/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab4/Lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/Lab4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab4/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab5/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab6/Lab6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/Lab6.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab6/src/Main.java" beforeDir="false" />
@@ -204,7 +195,7 @@
       <workItem from="1731488946736" duration="6000" />
       <workItem from="1731588440924" duration="70000" />
       <workItem from="1731588519089" duration="211000" />
-      <workItem from="1731676384148" duration="913000" />
+      <workItem from="1731676384148" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -262,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731069611734</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lab4 done">
+      <option name="closed" value="true" />
+      <created>1731677602163</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731677602163</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +275,8 @@
     <MESSAGE value="Lab 2" />
     <MESSAGE value="Copy Lab2 in Lab3" />
     <MESSAGE value="Lab3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab3 done" />
+    <MESSAGE value="Lab4 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab4 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
