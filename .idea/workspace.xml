@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3e9a65e-7f60-4c3d-a800-83f48ccf6ffb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab7/ConcurrentLab2/ConcurrentLab2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab6/Lab6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/Lab6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab6/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7/Racing/src/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/Racing/src/com/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7/Racing/src/com/example/controller/RaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/Racing/src/com/example/controller/RaceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7/Racing/src/com/example/model/RaceButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/Racing/src/com/example/model/RaceButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7/Racing/src/com/example/model/RaceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/Racing/src/com/example/model/RaceModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7/Racing/src/com/example/view/RaceView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/Racing/src/com/example/view/RaceView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,36 +53,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Priojects/Java/Java-Lab/Lab6&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main (3).executor": "Run",
+    "Application.Main (4).executor": "Run",
+    "Application.Main (5).executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Priojects/Java/Java-Lab/Lab7/ConcurrentLab2/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.32873562",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.logger" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Priojects\Java\Java-Lab\Lab7\ConcurrentLab2\src" />
       <recent name="E:\Priojects\Java\Java-Lab\Lab6" />
       <recent name="E:\Priojects\Java\Java-Lab\Lab5" />
       <recent name="E:\Priojects\Java\Java-Lab\Lab4" />
@@ -90,10 +96,16 @@
       <recent name="E:\Priojects\Java\Java-Lab\Lab3\src\com\example\logger" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Lab3" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Main" />
+      <module name="ConcurrentLab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,7 +136,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Main" />
+      <module name="Lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Main" />
+      <module name="Lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Main" />
       <module name="Lab5" />
       <extension name="coverage">
@@ -150,13 +188,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Main" />
+      <module name="Racing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +248,9 @@
       <workItem from="1731588519089" duration="211000" />
       <workItem from="1731676384148" duration="1633000" />
       <workItem from="1731683498812" duration="79000" />
-      <workItem from="1731685077007" duration="8680000" />
+      <workItem from="1731685077007" duration="8748000" />
+      <workItem from="1731847061614" duration="159000" />
+      <workItem from="1732828070768" duration="4213000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -279,7 +332,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731677964787</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lab6 done">
+      <option name="closed" value="true" />
+      <created>1731694067726</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731694067726</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Lab7 task for 4 points completed">
+      <option name="closed" value="true" />
+      <created>1732829846397</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732829846397</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +365,9 @@
     <MESSAGE value="Lab4 done" />
     <MESSAGE value="Add properties for Lab4" />
     <MESSAGE value="Lab5 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab5 done" />
+    <MESSAGE value="Lab6 done" />
+    <MESSAGE value="Lab7 task for 4 points completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab7 task for 4 points completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
