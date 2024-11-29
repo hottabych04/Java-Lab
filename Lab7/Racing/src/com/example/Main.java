@@ -6,6 +6,10 @@ import com.example.view.RaceView;
 
 import javax.swing.*;
 
+/**
+ * Главный класс приложения для запуска гонок кнопок.
+ * Демонстрирует использование многопоточности.
+ */
 public class Main {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
