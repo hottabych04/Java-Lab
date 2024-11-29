@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3e9a65e-7f60-4c3d-a800-83f48ccf6ffb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/Racing/src/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/Racing/src/com/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/Racing/src/com/example/controller/RaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/Racing/src/com/example/controller/RaceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/Racing/src/com/example/model/RaceButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/Racing/src/com/example/model/RaceButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/Racing/src/com/example/model/RaceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/Racing/src/com/example/model/RaceModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/Racing/src/com/example/view/RaceView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/Racing/src/com/example/view/RaceView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,6 +244,8 @@
       <workItem from="1731847061614" duration="159000" />
       <workItem from="1732828070768" duration="4642000" />
       <workItem from="1732870821667" duration="16000" />
+      <workItem from="1732895177785" duration="28000" />
+      <workItem from="1732895280989" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -354,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732832646446</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Lab7 done">
+      <option name="closed" value="true" />
+      <created>1732895193885</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732895193885</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +379,8 @@
     <MESSAGE value="Lab6 done" />
     <MESSAGE value="Lab7 task for 4 points completed" />
     <MESSAGE value="Lab7 task for 6 points completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab7 task for 6 points completed" />
+    <MESSAGE value="Lab7 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab7 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
